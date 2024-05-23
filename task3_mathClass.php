@@ -1,5 +1,4 @@
 <?php
-
 class MathSequences {
 
 	public $hi;
@@ -55,10 +54,8 @@ include 'histogram.php';
 class Statistics extends MathSequences{
 	public static function drawHistogram($title, $array){
 		echo("$title<br>");
-		//$Salaries=array(13,13,15,9,17,5,11,25,15,17,13,7,13,11,19,11,19,9,17,13,15,30,17,7,15,19,17,9,19,13,13,9,17,11,17,17,15,11,19,15,17,25,19,7,11,17,11,30,13,11,30,17,17,15,15,7,17,9,5,9,17,19,15,22,22,22,19,15,17,5,5,25,15);
-		//$chart=histogram::draw($Salaries);
 		$chart=histogram::draw($array);
-		}
+	}
 }
 ?>
 
